@@ -1,0 +1,17 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "10x NodeJS Assignment 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abhishek Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
