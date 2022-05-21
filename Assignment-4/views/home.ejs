@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="he">
+    <h1 >Assignment 4</h1>
+  </div>
+  <div class="main-container">
+    <% for(let user of users) { %> 
+    <div class="container" id="<%= user.isPromoted %>">
+      <h1 class = "name"><%=user.name %> </h1>
+      <p class = "email"><%=user.email%> </p>
+      <div class="buttons">
+        <form method="post" action="/put/<%= user._id %>?_method=PUT" >
+          <button class="bt1" type="submit">Promoted/Demoted</button>
+        </form>
+        <form method="post" action="/delete/<%= user._id %>?_method=DELETE" >
+          <button class="bt2" type="submit">Delete</button>
+        </form>
+      </div>
+    </div>
+    <% } %>
+    <a href="/form">Add User</a>
+  </div>
+</body>
+</html>

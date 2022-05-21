@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+} */
+
+.he{
+  background-color: rgb(2, 183, 123);
+  margin-bottom: 10px;
+}
+
+.he h1{
+  padding: 20px;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  width: 40vw;
+  margin-bottom: 10px;
+  border: 1px dashed #b2b2b2;
+  border-radius: 6px;
+}
+
+.container {
+  color: yellow;
+}
+
+#true {
+  color: green;
+}
+
+#false {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+}
+
+.bt1 {
+  background-color:rgb(0, 140, 68);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.bt2 {
+  background-color:rgb(197, 2, 12);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 24px;
+}
+
+p{
+  font-size: 18px;
+}
